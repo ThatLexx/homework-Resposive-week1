@@ -1,0 +1,74 @@
+:root {
+  --primary-color: #f8f398;
+  --secondary-color: #e46161;
+  --accent-color: #cbf078;
+  --box-shadow: 0 5px 10px;
+}
+body {
+  display: block;
+  margin: 60px auto;
+}
+h2 {
+  display: block;
+  text-align: center;
+  margin: 0;
+  font-size: 48px;
+}
+h1 {
+  text-align: center;
+  margin: 0;
+  font-size: 84px;
+}
+h3 {
+  text-align: center;
+  margin: 0;
+  font-size: 28px;
+}
+.links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.about-link {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: var(--secondary-color);
+}
+.contact-link {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  background: var(--accent-color);
+  box-shadow: var(--box-shadow);
+  color: var(--secondary-color);
+}
+.homepage-link {
+  text-align: center;
+  display: block;
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  box-shadow: var(--box-shadow);
+}
+
+p {
+  display: block;
+  text-align: center;
+  padding: 20px;
+  font-size: 18px;
+  line: height 1.5em;
+}
+
+.contact-me {
+  display: block;
+  text-align: center;
+}
+.email {
+  display: block;
+  text-align: center;
+  padding: 5px;
+}
